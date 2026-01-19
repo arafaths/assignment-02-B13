@@ -6,3 +6,89 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* share style */
+.max-width-auto{
+  width: 81%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Nav-bar style */
+.nav-bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A0B2E;
+  padding: 24px 100px;
+}
+.nav-logo{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-logo span{
+  background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-menu{
+  display: flex;
+  gap: 32px;
+}
+.nav-menu li{
+  list-style: none;
+}
+.nav-menu>li>a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff90;
+}
+.nav-btn{
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+  color: #ffffff;
+  padding: 12.5px 16px 12.5px 16px;
+  border: none;
+  border-radius: 10000px;
+}
+
+
+
+/* Banner/Hero style */
+.banner{
+  width: 100%;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.banner-image{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-png{
+  /* object-fit: cover; */
+  /* position: relative; */
+}
+.microphone-png{
+  position: absolute;
+  right: auto;
+  
+}
