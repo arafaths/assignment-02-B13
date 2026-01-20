@@ -65,6 +65,10 @@
   color: #ffffff90;
 }
 
+/* Mobile device */
+.nav-icon{
+  display: none;
+}
 
 
 
@@ -89,10 +93,11 @@
 .circle-png{
   max-width: 350px;
   width: 100%;
+  margin-top: 100px;
 }
 .microphone-png{
  position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 90px;
@@ -109,7 +114,7 @@
   border: none;
   border-radius: 100px;
   box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
-  top: 2px;
+  top: 100px;
   left: 60%;
 }
 .banner-content{
@@ -360,7 +365,7 @@
 
 
 
-
+/* footer section */
 #footer{
  width: 100%;
   background-image: url(../assets/footer-bg.png);
@@ -405,4 +410,205 @@
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff60;
+}
+
+
+#display-none{
+  display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+  /* nav-bar */
+  .nav-menu,
+  .nav-btn
+  {
+    display: none;
+  }
+
+  .nav-bar {
+    
+    padding: 15px 20px;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    
+}
+
+.nav-icon{
+  display: block;
+  width: 24px;
+  color: #ffffff;
+}
+
+
+/* banner/hero */
+
+.banner {
+    max-width: 600px;
+    
+}
+
+
+.circle-png {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.microphone-png {
+    
+    top: 65%;
+    
+    max-width: 80px;
+}
+
+.new-badge {
+   
+    font-size: 1rem;
+   
+}
+
+.banner-content {
+    padding: 0 15px;
+}
+
+.banner-content h2 {
+    font-size: 2rem;
+}
+
+/* about section */
+
+.about-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.max-width-auto {
+    width: 100%;
+}
+
+.about-content>h2 {
+    font-size: 2rem;
+}
+
+.about-line {
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-info-container>h2 {
+    font-size: 2rem;
+}
+
+.about-info-container>p {
+  padding-bottom: 20px;
+}
+
+.about-container {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* Why Choose TechWave */
+
+#techwave {
+    padding: 40px 0;
+}
+
+.techwave-container{
+  padding: 0 15px;
+}
+
+.techwave-container>h2 {
+    font-size: 1.6rem;
+}
+
+.techwave-box {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.techwave-card {
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.techwave-card-title {
+    font-size: 1.3rem;
+}
+
+
+.card-1 {
+    grid-column: span 2;
+}
+.card-5 {
+    grid-column: span 2;
+}
+
+
+/* episode section */
+.episode-container {
+    padding: 40px 15px;
+}
+
+.episode-container h2 {
+    font-size: 2rem;
+}
+
+.episode-card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card-content>h3 {
+    font-size: 1.3rem;
+}
+
+.host-profile {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.host-profile>img {
+    max-width: 150px;
+}
+
+.host-info {
+    text-align: center;
+}
+
+.host-info>h3 {
+    font-size: 1.5rem;
+}
+
+
+
+/* footer */
+#footer {
+  max-width: 600px;
+}
+
+.footer-content {
+    padding: 50px 15px;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+}
+
+.footer-content ul {
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+
 }
