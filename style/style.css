@@ -144,3 +144,120 @@
   border: 1px solid #00FF88;
   border-radius: 10000px;
 }
+
+
+
+
+/* About section */
+.about{
+  background-color: #1A0B2E;
+}
+.about-container{
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.about-content{
+  text-align: center;
+}
+.about-content>h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.about-content>p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.about-line{
+  border: none;
+  height: 1px;
+  background: #ffffff10;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.about-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-info-container{
+  text-align: center;
+}
+.about-info-container>h2{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.about-info-container>p{
+  color: #ffffff80;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+
+
+/* Why Choose TechWave */
+#techwave{
+  background: rgba(35, 14, 61, 1);
+  padding: 120px 0;
+}
+.techwave-container>h2{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.techwave-box{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.techwave-card{
+  border: none;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.techwave-card-logo{
+  max-width: 60px;
+  width: 100%;
+}
+.techwave-card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.techwave-card-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff60;
+}
+.card-1{
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.card-2{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.card-3{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.card-4{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.card-5{
+  grid-column: span 1;
+  grid-row: span 1;
+}
