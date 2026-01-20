@@ -261,3 +261,148 @@
   grid-column: span 1;
   grid-row: span 1;
 }
+
+
+
+
+/* Featured Episodes */
+#episodes{
+  background: #1A0B2E;
+}
+.episode-container{
+  padding: 120px 0;
+  text-align: center;
+}
+.episode-container h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.episode-card-container{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  padding-bottom: 120px;
+  gap: 30px;
+}
+.episode-card{
+  background: #250D44;
+  border-radius: 24px;
+  max-width: 380px;
+  text-align: left;
+  /* padding: 24px; */
+  overflow: hidden;
+}
+.video-item iframe{
+  width: 100%;
+  height: 200px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 12px;
+
+}
+.card-content>h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.card-content>p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff60;
+}
+.timer{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00FF88;
+}
+
+/* host-profile */
+.host-profile{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+}
+.host-profile>img{
+  max-width: 200px;
+  width: 100%;
+}
+.host-info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 16px;
+}
+.host-info>h3{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.host-info>p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff60;
+}
+.social-png>img{
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+
+
+
+#footer{
+ width: 100%;
+  background-image: url(../assets/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content{
+  padding: 120px 0;
+  text-align: center;
+}
+.footer-content h2{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.footer-content h2>span{
+  background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+.footer-content ul{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 35px auto;
+  list-style: none;
+}
+.footer-content ul>li>a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+.footer-content ul>li>a>span{
+  color: #ffffff60;
+}
+.footer-content p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff60;
+}
