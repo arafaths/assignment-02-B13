@@ -28,9 +28,14 @@
   padding: 12.5px 16px 12.5px 16px;
   border: none;
   border-radius: 10000px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-
+.btn:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgba(255, 78, 205, 0.7);
+}
 
 /* Nav-bar style */
 .nav-bar{
@@ -45,6 +50,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #ffffff;
+  cursor: pointer;
 }
 .nav-logo span{
   background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
@@ -148,6 +154,13 @@
   padding: 12.5px 16px 12.5px 16px;
   border: 1px solid #00FF88;
   border-radius: 10000px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.banner-btn:hover{
+  background: rgba(0, 255, 136, 0.1);
+  box-shadow: 0 0 18px rgba(0, 255, 136, 0.6);
+  transform: translateY(-4px);
 }
 
 
@@ -231,6 +244,12 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+.techwave-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 .techwave-card-logo{
   max-width: 60px;
@@ -298,6 +317,11 @@
   text-align: left;
   /* padding: 24px; */
   overflow: hidden;
+  transition: 0.35s ease;
+}
+.episode-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 .video-item iframe{
   width: 100%;
@@ -426,20 +450,19 @@
     display: none;
   }
 
-  .nav-bar {
-    
+  .nav-bar { 
     padding: 15px 20px;
 }
 
 .nav-logo {
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 }
 
 .nav-icon{
   display: block;
   width: 24px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 
@@ -447,7 +470,6 @@
 
 .banner {
     max-width: 600px;
-    
 }
 
 
@@ -458,16 +480,12 @@
 }
 
 .microphone-png {
-    
     top: 65%;
-    
     max-width: 80px;
 }
 
 .new-badge {
-   
     font-size: 1rem;
-   
 }
 
 .banner-content {
@@ -593,11 +611,11 @@
 
 /* footer */
 #footer {
-  max-width: 600px;
+   max-width: 600px;
 }
 
 .footer-content {
-    padding: 50px 15px;
+   padding: 50px 15px;
 }
 
 .footer-content h2 {
@@ -609,6 +627,6 @@
     flex-wrap: wrap;
 }
 
-
-
 }
+
+/* Allah Hafiz */
