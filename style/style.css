@@ -20,6 +20,17 @@
   max-width: 1300px;
   margin: 0 auto;
 }
+.btn{
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient( 25deg, #F7E93F, #FB09B4, #9100F8);
+  color: #ffffff;
+  padding: 12.5px 16px 12.5px 16px;
+  border: none;
+  border-radius: 10000px;
+}
+
+
 
 /* Nav-bar style */
 .nav-bar{
@@ -53,15 +64,7 @@
   font-weight: 500;
   color: #ffffff90;
 }
-.nav-btn{
-  font-size: 1rem;
-  font-weight: 600;
-  background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
-  color: #ffffff;
-  padding: 12.5px 16px 12.5px 16px;
-  border: none;
-  border-radius: 10000px;
-}
+
 
 
 
@@ -74,21 +77,70 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  overflow: hidden;
+  /* position: relative; */
+  /* overflow: hidden; */
 }
 .banner-image{
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .circle-png{
-  /* object-fit: cover; */
-  /* position: relative; */
+  max-width: 350px;
+  width: 100%;
 }
 .microphone-png{
-  position: absolute;
-  right: auto;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90px;
+  width: 100%;
   
+}
+.new-badge{
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1A0B2E;
+  padding: 8px 16px;
+  background-color: #00FF88;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+  top: 2px;
+  left: 60%;
+}
+.banner-content{
+  max-width: 550px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.banner-content h2{
+  font-size: 3.8rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.banner-content p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff80;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.banner-button{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.banner-btn{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00FF88;
+  background: transparent;
+  padding: 12.5px 16px 12.5px 16px;
+  border: 1px solid #00FF88;
+  border-radius: 10000px;
 }
